@@ -1,0 +1,732 @@
+{
+	"Divetype": {
+		"Boat/shore": {
+			"Experience": {
+				"Sport": {
+					"Lat": 56.235379,
+					"Long": -5.046554,
+					"Divesite_Name": "Stone Point",
+					"Depth": 30
+				},
+				"Unknown": {
+					"Lat": 56.680916,
+					"Long": -5.137396,
+					"Divesite_Name": "Carnoch Bay",
+					"Depth": 30
+				}
+			}
+		},
+		"Cave/Shore": {
+			"Experience": {
+				"Sport": [{
+					"Lat": 58.426574,
+					"Long": -3.072386,
+					"Divesite_Name": "Trinkie",
+					"Depth": 25
+				},
+				{
+					"Lat": 56.16454,
+					"Long": -4.78786,
+					"Divesite_Name": "Craggen",
+					"Depth": 32
+				}]
+			}
+		},
+		"Drift": {
+			"Experience": {
+				"Ocean Diver": {
+					"Lat": 56.546934,
+					"Long": -5.28864,
+					"Divesite_Name": "Cregan Bridge",
+					"Depth": 8
+				},
+				"Sport": {
+					"Lat": 56.45628,
+					"Long": -5.39195,
+					"Divesite_Name": "The falls of Iora",
+					"Depth": 30
+				}
+			}
+		},
+		
+		"Quarry": {
+			"Experience": {
+				"Novice": [{
+					"Lat": 56.027415,
+					"Long": -3.385178,
+					"Divesite_Name": "Preston Hill Quarry",
+					"Depth": 10
+				},
+				{
+					"Lat": 57.469091,
+					"Long": -1.794344,
+					"Divesite_Name": "Boddam Quary",
+					"Depth": 25
+				}],
+				"Sport": [{
+					"Lat": 56.29425,
+					"Long": -5.64439,
+					"Divesite_Name": "Easdale Quarry",
+					"Depth": 60
+				},
+				{
+					"Lat": 56.451389,
+					"Long": -5.223611,
+					"Divesite_Name": "Bonawe Quarry",
+					"Depth": 15
+				}]
+			}
+		},
+		"Reef/Wreck": {
+			"Experience": {
+				"Novice": {
+					"Lat": 56.117729,
+					"Long": -4.830776,
+					"Divesite_Name": "Finnart",
+					"Depth": 18
+				}
+			}
+		},
+		"River": {
+			"Experience": {
+				"Ocean Diver": {
+					"Lat": 56.481003,
+					"Long": -4.817001,
+					"Divesite_Name": "Orchy Pools",
+					"Depth": 7
+				},
+				"Sport": [{
+					"Lat": 56.988119,
+					"Long": -3.546275,
+					"Divesite_Name": "Linn of Dee",
+					"Depth": 9
+				},
+				{
+					"Lat": 56.44774,
+					"Long": -4.85287,
+					"Divesite_Name": "River Orchy",
+					"Depth": 9
+				}
+				]
+			}
+		},
+		"Scenic": {
+			"Experience": {
+				"Novice": [{
+					"Lat": 57.372744,
+					"Long": -5.810625,
+					"Divesite_Name": "Toscaig",
+					"Depth": 30
+				},
+				{
+					"Lat": 58.456636,
+					"Long": -3.054875,
+					"Divesite_Name": "Staxigoe",
+					"Depth": 10
+				}],
+				"Sport": {
+					"Lat": 57.358355,
+					"Long": -5.568003,
+					"Divesite_Name": "Conservation Bay",
+					"Depth": "Unknown"
+				}
+			}
+		},
+		"Scenic/Shore": {
+			"Experience": {
+				"Novice": {
+					"Lat": 58.187314,
+					"Long": -5.33854,
+					"Divesite_Name": "Bay of Clachtoll",
+					"Depth": 10
+				}
+				,"Ocean Diver": {
+					"Lat": 58.170205,
+					"Long": -5.307555,
+					"Divesite_Name": "Achmelvich Bay",
+					"Depth": 20
+				},"Unknown": {
+					"Lat": 56.13239,
+					"Long": -5.22715,
+					"Divesite_Name": "Furnace Tea Rooms",
+					"Depth": 18
+				}
+			}
+		},
+		"Shore": {
+			"Experience": {
+				"Novice": [{
+					"Lat": 56.10765,
+					"Long": -4.90524,
+					"Divesite_Name": "Carrick Castle",
+					"Depth": 30
+				},
+				{
+					"Lat": 57.537954,
+					"Long": -6.615422,
+					"Divesite_Name": "Carnach Reef",
+					"Depth": "Unknown"
+				},
+				{
+					"Lat": 56.19395,
+					"Long": -4.77108,
+					"Divesite_Name": "Twin Piers",
+					"Depth": 25
+				},
+				{
+					"Lat": 56.15639,
+					"Long": -5.101551,
+					"Divesite_Name": "Midletters",
+					"Depth": "Unknown"
+				},
+				{
+					"Lat": 56.18219,
+					"Long": -2.81499,
+					"Divesite_Name": "Elie Harbour",
+					"Depth": 8
+				},
+				{
+					"Lat": 57.212962,
+					"Long": -5.331465,
+					"Divesite_Name": "North Strome",
+					"Depth": 18
+				},
+				{
+					"Lat": 56.11851,
+					"Long": -4.82812,
+					"Divesite_Name": "29 Steps",
+					"Depth": 30
+				},
+				{
+					"Lat": 56.17498,
+					"Long": -5.08029,
+					"Divesite_Name": "The Creggans",
+					"Depth": 35
+				},
+				{
+					"Lat": 57.69399,
+					"Long": -2.06483,
+					"Divesite_Name": "School Reef",
+					"Depth": 13
+				},
+				{
+					"Lat": 55.87678,
+					"Long": -2.08371,
+					"Divesite_Name": "Green Ends Gully",
+					"Depth": 11
+				},
+				{
+					"Lat": 55.920705,
+					"Long": -5.057053,
+					"Divesite_Name": "Brackley Point",
+					"Depth": 50
+				},
+				{
+					"Lat": 55.90528,
+					"Long": -4.88111,
+					"Divesite_Name": "Inverkip",
+					"Depth": 18
+				},
+				{
+					"Lat": 56.855654,
+					"Long": -5.705646,
+					"Divesite_Name": "Alisary",
+					"Depth": 20
+				},
+				{
+					"Lat": 5.676609,
+					"Long": -2.28799,
+					"Divesite_Name": "Millshore",
+					"Depth": 8
+				},
+				{
+					"Lat": 57.574459,
+					"Long": -5.686425,
+					"Divesite_Name": "Lower Diabaig Pier",
+					"Depth": "Unknown"
+				},
+				{
+					"Lat": 56.227254,
+					"Long": -5.019865,
+					"Divesite_Name": "Stt Catherines",
+					"Depth": 30
+				},
+				{
+					"Lat": 56.677303,
+					"Long": -5.642724,
+					"Divesite_Name": "Laudale Slip",
+					"Depth": 35
+				},
+				{
+					"Lat": 56.549782,
+					"Long": -5.895404,
+					"Divesite_Name": "Wishing Stone",
+					"Depth": 20
+				},
+				{
+					"Lat": 57.57375,
+					"Long": -5.68405,
+					"Divesite_Name": "Lower Diabaig Wall",
+					"Depth": 40
+				},
+				{
+					"Lat": 57.70454,
+					"Long": -5.67354,
+					"Divesite_Name": "Charleston Pier",
+					"Depth": 10
+				},
+				{
+					"Lat": 56.741854,
+					"Long": -5.205983,
+					"Divesite_Name": "Picninc Site",
+					"Depth": 25
+				},
+				{
+					"Lat": 58.029577,
+					"Long": -5.37461,
+					"Divesite_Name": "Badentarbet",
+					"Depth": 8
+				},
+				{
+					"Lat": 57.4676,
+					"Long": -1.80803,
+					"Divesite_Name": "Boddam Lighthouse",
+					"Depth": 23
+				},
+				{
+					"Lat": 57.441488,
+					"Long": -6.59147,
+					"Divesite_Name": "Dunvegan Pier",
+					"Depth": 11
+				},
+				{
+					"Lat": 58.398694,
+					"Long": -5.119157,
+					"Divesite_Name": "Fanagmore",
+					"Depth": 18
+				},
+				{
+					"Lat": 55.953801,
+					"Long": -5.19943,
+					"Divesite_Name": "Craig Lodge",
+					"Depth": 6
+				},
+				{
+					"Lat": 58.454295,
+					"Long": -5.036389,
+					"Divesite_Name": "Kinlochbervie",
+					"Depth": 20
+				},
+				{
+					"Lat": 58.495684,
+					"Long": -4.661711,
+					"Divesite_Name": "Ard Neackie",
+					"Depth": 40
+				},
+				{
+					"Lat": 56.280235,
+					"Long": -2.585177,
+					"Divesite_Name": "Fifeness",
+					"Depth": 15
+				},
+				{
+					"Lat": 56.617007,
+					"Long": -5.334356,
+					"Divesite_Name": "Telephone Exchange",
+					"Depth": 20
+				},
+				{
+					"Lat": 56.54582,
+					"Long": -5.28048,
+					"Divesite_Name": "Queenie Reef",
+					"Depth": 20
+				},
+				{
+					"Lat": 58.621894,
+					"Long": -3.367449,
+					"Divesite_Name": "Dwarwick Pier",
+					"Depth": "Unknown"
+				},
+				{
+					"Lat": 56.54865,
+					"Long": -5.29863,
+					"Divesite_Name": "Cregan Inn",
+					"Depth": 14
+				},
+				{
+					"Lat": 56.83853,
+					"Long": -5.80615,
+					"Divesite_Name": "Whale Rock",
+					"Depth": 10
+				}],
+				"Ocean Diver": [{
+					"Lat": 56.0062,
+					"Long": -2.5177,
+					"Divesite_Name": "Dunbar Harbour",
+					"Depth": 16
+				},
+				{
+					"Lat": 56.03845,
+					"Long": -5.59514,
+					"Divesite_Name": "Scotnish Hole",
+					"Depth": 16
+				},
+				{
+					"Lat": 56.450648,
+					"Long": -6.099059,
+					"Divesite_Name": "Creag Brimishgan",
+					"Depth": 35
+				},
+				{
+					"Lat": 56.447143,
+					"Long": -5.228779,
+					"Divesite_Name": "Bonawe Ferry Point",
+					"Depth": 30
+				}],
+				"Sport": [{
+					"Lat": 56.642,
+					"Long": -5.2953,
+					"Divesite_Name": "Culi Bay",
+					"Depth": 25
+				},
+				{
+					"Lat": 56.13299,
+					"Long": -4.81627,
+					"Divesite_Name": "Fishermans Carpark",
+					"Depth": 30
+				},
+				{
+					"Lat": 57.2694,
+					"Long": -5.52398,
+					"Divesite_Name": "Totaig",
+					"Depth": 20
+				},
+				{
+					"Lat": 57.4532,
+					"Long": -6.74295,
+					"Divesite_Name": "Meanish Reef",
+					"Depth": "Unknown"
+				},
+				{
+					"Lat": 57.510118,
+					"Long": -1.772752,
+					"Divesite_Name": "Almanethy Creek",
+					"Depth": 8
+				},
+				{
+					"Lat": 56.42286,
+					"Long": -5.48419,
+					"Divesite_Name": "Dunollie Castle",
+					"Depth": 10
+				},
+				{
+					"Lat": 57.128064,
+					"Long": -2.049669,
+					"Divesite_Name": "Greig Ness",
+					"Depth": 15
+				},
+				{
+					"Lat": 56.297086,
+					"Long": -5.654204,
+					"Divesite_Name": "Easdale Cliff",
+					"Depth": 15
+				},
+				{
+					"Lat": 55.94746,
+					"Long": -5.66072,
+					"Divesite_Name": "Castle Sween Reef",
+					"Depth": "Unknown"
+				},
+				{
+					"Lat": 58.448363,
+					"Long": -3.053289,
+					"Divesite_Name": "Broadhaven Window",
+					"Depth": 25
+				},
+				{
+					"Lat": 56.65295,
+					"Long": -5.55458,
+					"Divesite_Name": "Laudale Pier",
+					"Depth": 35
+				},
+				{
+					"Lat": 56.70411,
+					"Long": -5.79096,
+					"Divesite_Name": "Camas Torsa",
+					"Depth": 20
+				},
+				{
+					"Lat": 56.041348,
+					"Long": -5.293538,
+					"Divesite_Name": "Triple Reef",
+					"Depth": 35
+				},
+				{
+					"Lat": 55.8778,
+					"Long": -2.0977,
+					"Divesite_Name": "Weasel Loch",
+					"Depth": 17
+				},
+				{
+					"Lat": 55.90027,
+					"Long": -2.12972,
+					"Divesite_Name": "St Abbs",
+					"Depth": 18
+				},
+				{
+					"Lat": 55.91259,
+					"Long": -2.15032,
+					"Divesite_Name": "Peticowick",
+					"Depth": 16
+				},
+				{
+					"Lat": 55.78905,
+					"Long": -4.87111,
+					"Divesite_Name": "Gogoburn",
+					"Depth": 30
+				},
+				{
+					"Lat": 56.06867,
+					"Long": -5.26567,
+					"Divesite_Name": "Anchor Point",
+					"Depth": 15
+				},
+				{
+					"Lat": 56.68274,
+					"Long": -5.23044,
+					"Divesite_Name": "Broom Point",
+					"Depth": 10
+				},
+				{
+					"Lat": 56.8975,
+					"Long": -2.21589,
+					"Divesite_Name": "Catterline Island",
+					"Depth": "Unknown"
+				},
+				{
+					"Lat": 56.21171,
+					"Long": -4.69614,
+					"Divesite_Name": "Tarbet Isle",
+					"Depth": 10
+				},{
+					"Lat": 57.26875,
+					"Long": -5.52274,
+					"Divesite_Name": "Duich Point Skerry",
+					"Depth": 15
+					}],
+				"Unknown": [{
+					"Lat": 56.906911,
+					"Long": -2.199128,
+					"Divesite_Name": "Crawton Reef and the Granero",
+					"Depth": "Unknown"
+				},
+				{
+					"Lat": 56.891701,
+					"Long": -5.750967,
+					"Divesite_Name": "Eilean Gobla#ch",
+					"Depth": 10
+				},
+				{
+					"Lat": 56.884852,
+					"Long": 92.215472,
+					"Divesite_Name": "Tod Head Lighthouse",
+					"Depth": 15
+				},
+				{
+					"Lat": 56.68531,
+					"Long": -5.16886,
+					"Divesite_Name": "Manse Point",
+					"Depth": "Unknown"
+				}
+				]
+				}
+			},
+			"Shore/Wall": {
+				"Experience": {
+					"Sport":[ {
+						"Lat": 56.70529,
+						"Long": -5.03985,
+						"Divesite_Name": "Caolasnacon",
+						"Depth": 30
+					},
+					{
+						"Lat": 56.70197,
+						"Long": -5.06929,
+						"Divesite_Name": "Old Cemetery 2",
+						"Depth": 6
+					},
+					{
+						"Lat": 58.257595,
+						"Long": -5.018204,
+						"Divesite_Name": "Kylesku",
+						"Depth": 40
+					}]
+				}
+			},
+			"Shore/Wreck": {
+				"Experience": {
+					"Novice": [{
+						"Lat": 56.70293,
+						"Long": -5.07285,
+						"Divesite_Name": "Old cemetary 1",
+						"Depth": 4.5
+					},
+					{
+						"Lat": 58.652223,
+						"Long": -3.277225,
+						"Divesite_Name": "Skarfskerry Haven",
+						"Depth": 25
+					},
+					{
+						"Lat": 57.095696,
+						"Long": -2.076137,
+						"Divesite_Name": "Cove Harbour",
+						"Depth": 10
+					}],
+					"Ocean Diver": {
+						"Lat": 56.454974,
+						"Long": -5.310162,
+						"Divesite_Name": "Charna",
+						"Depth": 12
+					}
+				}
+			},
+			"Shore/Slope": {
+				"Experience": {
+					"Ocean Diver": {
+						"Lat": 56.15027,
+						"Long": -5.17436,
+						"Divesite_Name": "Furnace Quarry",
+						"Depth": 43
+					}
+				}
+			},
+			"Slope": {
+			"Experience": {
+				"Novice": [{
+					"Lat": 56.26685,
+					"Long": -4.93437,
+					"Divesite_Name": "Drishaig Reef",
+					"Depth": 26
+				},{
+						"Lat": 56.19605,
+						"Long": -4.7631,
+						"Divesite_Name": "Torpedo Station",
+						"Depth": 15
+					},{
+					"Lat": 56.191568,
+					"Long": -4.776853,
+					"Divesite_Name": "Congor Alley",
+					"Depth": 30
+				},
+				{
+					"Lat": 56.208244,
+					"Long": -5.060363,
+					"Divesite_Name": "The Bottle Dive",
+					"Depth": 53
+				},
+				{
+					"Lat": 56.210973,
+					"Long": -5.055272,
+					"Divesite_Name": "Seal Reef",
+					"Depth": 10
+				}],
+				"Ocean Diver": {
+					"Lat": 56.150821,
+					"Long": -5.177361,
+					"Divesite_Name": "Dogfish Reef",
+					"Depth": 50
+				},
+					"Sport":[ {
+						"Lat": 56.158042,
+						"Long": -4.79613,
+						"Divesite_Name": "Glen Douglas Road End",
+						"Depth": 56
+					},
+					{
+						"Lat": 56.151734,
+						"Long": -4.80223,
+						"Divesite_Name": "Midway",
+						"Depth": 53
+					},
+					{
+					"Lat": 56.161121,
+					"Long": -5.133472,
+					"Divesite_Name": "Stallion Rock",
+					"Depth": 37
+				},
+				{
+					"Lat": 56.17988,
+					"Long": -4.77494,
+					"Divesite_Name": "Loch long Caves",
+					"Depth": 31
+				}],
+					
+		"Master": {
+					"Lat": 56.17754,
+					"Long": -4.68342,
+					"Divesite_Name": "Firkin Point",
+					"Depth": 110
+				}	
+				}
+				
+},			
+			
+					
+				"Wall": {
+					"Experience": {
+						"Sport": [{
+							"Lat": 56.53207,
+							"Long": -5.78563,
+							"Divesite_Name": "Lochaline Pier",
+							"Depth": 90
+						},
+						{
+							"Lat": 57.270121,
+							"Long": -5.509153,
+							"Divesite_Name": "Eilean Donan Wall",
+							"Depth": 115
+						}]
+					}
+				},
+				"Wall/Scenic": {
+					"Experience": {
+						"Sport": {
+							"Lat": 56.67821,
+							"Long": -5.21241,
+							"Divesite_Name": "Kentallen Wall",
+							"Depth": 32
+						}
+					}
+				},
+				"Wreck": {
+					"Experience": {
+						"Master": {
+							"Lat": 55.87871,
+							"Long": -4.88004,
+							"Divesite_Name": "Kintyre",
+							"Depth": 31
+						},
+						"Novice": [{
+							"Lat": 56.26588,
+							"Long": -2.59681,
+							"Divesite_Name": "SS Chingford",
+							"Depth": 7
+						},
+						{
+							"Lat": 55.69435,
+							"Long": -4.90613,
+							"Divesite_Name": "Portencross",
+							"Depth": 8
+						}],
+						"Sport": {
+							"Lat": 56.0735,
+							"Long": -4.8368,
+							"Divesite_Name": "Five Wrecks",
+							"Depth": 15
+						}
+					}
+				}
+			}
+			}
+			
