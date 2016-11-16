@@ -1,0 +1,136 @@
+<html>
+<head>
+<script src='jquery-1.11.3.min.js'></script>
+
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
+<script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+<script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+ <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+   <script src="liquidFillGauge.js" language="JavaScript"></script>
+   <script src="bootstrap/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<style>
+
+	  
+	  
+	  
+	  </style>
+<div id='map'></div>
+<input id='search' class="form-control" placeholder='Enter Divesite Name'  />
+<div id="svg1" data-toggle="tooltip" data-placement="top" title="Swell Wave Height">	
+<svg id="fillgauge1" width="97%" height="100"> </svg>
+
+</div>
+<img src="dial3.png" id='tri' height="65" width="15">
+<img src="compass.png" id='svg2' height="110" width="110" data-toggle="tooltip" data-placement="top" title="Wind Direction">
+<div class="dsr">
+<img src="dsplace.png" id='dsplace' height="115" width="115">
+<img src="dsback.png" id='dsback' height="130" width="130">
+</div>	
+
+
+
+<div class="col-sm-4" id="side">
+<div id="buttons">
+<div class="row">
+	  <a  id='compare' class="btn btn-primary btn-lg btn-block" onclick='compare()'>Compare Dive Sites</a>
+	  </div>
+	  <div class="row">
+  <a  id='find' class="btn btn-primary btn-lg btn-block" onclick='onClick1()'>Find Nearest Dive Site</a>
+</div>
+</div>
+
+
+<div id="tablemark">
+	<div class"col-md-4">
+	<h3>Filter by Dive type</h3>
+	</div>
+<div class="row">
+<input class="col-m-4" type="image" src="wall.png" id="Wall" data-toggle="tooltip" title="Wall Dives" alt="" >
+<input class="col-m-4" type="image" src="scenic.png" id='Scenic' data-toggle="tooltip" data-placement="top" title="Scenic Dives" alt="" >
+<input class="col-m-4"type="image" src="reef.png" id="Reef" data-toggle="tooltip" data-placement="top" title="Reef Dives" alt="" >
+</div>
+<div class="row">
+<input class="col-m-4" type="image" id='Shore' src="shore.png" data-toggle="tooltip" data-placement="top" title="Shore Dives" alt="" >
+<input class="col-m-4" id='Wrecks' data-toggle="tooltip" data-placement="top" title="Wreck Dives" type="image" src="ps.png" alt="" >
+<input class="col-m-4"type="image" src="river.png" id="River" data-toggle="tooltip" data-placement="top" title="River Dives" alt="" >
+</div>
+<div class="row">
+<input class="col-m-4" type="image" src="slope.png" id='Slope' data-toggle="tooltip" data-placement="top" title="Slope Dives" alt=""  >
+<input class="col-m-4"type="image" src="drift.png" id="Drift" data-toggle="tooltip" data-placement="top" title="Drift Dives" alt="" >
+<input class="col-m-4"type="image" src="quarry.png" id="Quarry" data-toggle="tooltip" data-placement="top" title="Quarry Dives" alt="" >
+</div>
+</div>
+
+
+<div class="xpf">
+	<div class"col-md-4">
+	<h4>Filter by Recommended Experience</h4>
+	</div>
+	<div class="col-md-4">
+	<img id="divexp" src="all1.png">
+	</div>
+	<div class="col-md-4">
+	</div>
+	<div class="col-md-4">
+	<button type="button" id="plus" class="btn btn-default btn-block">+</button>
+	<button id="minus" class="btn btn-default btn-block">-</button>
+	</div>
+	
+</div>
+	</div>
+
+
+
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <table class="table table-striped" id="table">
+		<tr class="nbr">
+		<th></th>
+		<th id="ds0"></th>
+		<th id="ds1"></th>
+		</tr>
+		  <tr><th class="nb">Coordinates</th> <td id="dc0"></td> <td id="dc1"></td> </tr>
+  <tr><th class="nb">Dive site Type</th> <td id="dst0"></td> <td id="dst1"></td> </tr>
+  <tr> <th class="nb">Experience</th> <td id="xp0"></td> <td id="xp1"></td> </tr>
+  <tr> <th class="nb">Depth</th> <td id="d0"></td> <td id="d1"></td> </tr>
+  <tr> <th class="nb">Temperature(°C)</th> <td id="tmp0"></td> <td id="tmp1"></td> </tr>
+  
+  
+  <tr> <th class="nb">Wind Speed</th> <td id="ws0"></td> <td id="ws1"></td> </tr>
+  <tr> <th class="nb">Sea Temperature(°C)</th> <td id="st0"></td> <td id="st1"></td> </tr>
+</table>
+        <div class="modal-footer">
+          
+		  <button type="button" class="btn btn-default"  onclick='close1()'>Close</button>
+        </div>
+      </div>
+    </div>
+	</div>
+<script src="mapjs.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64320230-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
